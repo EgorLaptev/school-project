@@ -1,0 +1,45 @@
+.page-footer {
+    background: #eee
+}
+
+.page-footer__qr {
+    width: 150px;
+    height: 150px
+}
+
+.page-footer__container {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+.page-footer .contacts__title {
+    font-size: 18rem;
+    margin-bottom: 20px
+}
+
+.page-footer .contacts__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.page-footer .contacts__link {
+    text-decoration: none;
+    color: inherit
+}
+
+.page-footer .contacts__link:hover {
+    color: red
+}
+
+@media screen and (max-width: 560px) {
+    .page-footer__container {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
