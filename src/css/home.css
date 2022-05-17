@@ -1,7 +1,7 @@
 .intro {
     min-height: 500px;
     height: 80vh;
-    background: url(../img/bg.webp) 100% 100% no-repeat;
+    background: url(../img/bg.webp) 100% 100% no-repeat fixed;
     background-size: cover;
     color: #fff;
     text-align: center;

@@ -6,8 +6,11 @@ import {Link} from "react-router-dom";
 import {useEffect} from "react";
 import React from "react";
 
-
 class Home extends React.Component {
+
+    componentDidMount() {
+        document.title = 'Главная';
+    }
 
     render() {
 

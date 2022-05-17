@@ -1,6 +1,6 @@
 .intro_ege {
     padding: 250px 0 200px;
-    background: url(../img/gia2.webp) 50% 50% no-repeat;
+    background: url(../img/gia2.webp) 40% 50% no-repeat fixed;
     background-size: cover;
     color: #fff;
     text-align: center
@@ -11,6 +11,66 @@
     font-size: 48rem;
     font-family: Inter;
     font-weight: 400
+}
+
+
+.resources__container {
+    padding: 100px 15px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.resources__card {
+    position: relative;
+    padding: 15px 30px;
+    background: #eee;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resources__card:hover {
+    background: #eaeaea;
+}
+
+.resources__title {
+    font-size: 18rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.resources__link {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.resources__image {
+    height: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+    .resources__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .resources__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resources__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media screen and (max-width: 470px) {

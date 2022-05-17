@@ -10,6 +10,7 @@ import Schedule from "./pages/Schedule";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollIntoView from "./components/ScrollIntoView";
+import './registerServiceWorker';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,9 +18,8 @@ root.render(
 
         <ScrollIntoView/>
 
-        <Header/>
-
         <BrowserRouter>
+            <Header/>
             <Routes>
                 <Route path='/' element={ <Home/> }/>
                 <Route path='/home' element={ <Home/> }/>
@@ -27,9 +27,10 @@ root.render(
                 <Route path='/ege' element={ <Ege/> }/>
                 <Route path='/universities' element={ <Universities/> }/>
             </Routes>
+            <Footer/>
         </BrowserRouter>
 
-        <Footer/>
 
     </React.StrictMode>
 );
+

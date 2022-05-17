@@ -1,5 +1,5 @@
 import '../css/footer.css';
-import QRImage from '../img/qr.webp';
+import QRImage from '../img/qr.png';
 
 
 function Footer() {

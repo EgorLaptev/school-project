@@ -1,7 +1,8 @@
 import '../css/header.css';
-import gerbImage from '../img/gerb.webp';
+import logo from '../img/logo.svg';
 import barsImage from '../img/bars.svg';
 import {useRef} from "react";
+import {Link} from "react-router-dom";
 
 
 function Header() {
@@ -29,9 +30,11 @@ function Header() {
 
                     <div id='backdrop' ref={backdrop} onClick={closeMenu}/>
 
-                    <a href="#" className="page-header__link">
-                        <img src={gerbImage} alt="Герб Санкт-Петербурга" className="page-header__logo"/>
-                    </a>
+
+                    <Link to='/' className="page-header__link">
+                        <img src={logo} alt="Герб Санкт-Петербурга" className="page-header__logo"/>
+                    </Link>
+
 
                     <button className="page-header__menu-button" id="dropdownButton" onClick={openMenu}>
                         <img src={barsImage} alt='Иконка открытия бокового меню'/>

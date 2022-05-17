@@ -1,6 +1,6 @@
 .intro_universities {
     padding: 250px 0 200px;
-    background: url(../img/universities2.webp) 50% 50% no-repeat;
+    background: url(../img/universities2.webp) 50% 50% no-repeat fixed;
     background-size: cover;
     color: #fff;
     text-align: center
@@ -11,6 +11,58 @@
     font-size: 48rem;
     font-family: Inter;
     font-weight: 400
+}
+
+.universities__container {
+    padding: 100px 15px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.universities__card {
+    padding: 15px 30px;
+    background: #eee;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.universities__card:hover {
+    background: #eaeaea;
+}
+
+.universities__title {
+    font-size: 18rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.universities__image {
+    height: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+    .universities__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .universities__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .universities__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media screen and (max-width: 470px) {
