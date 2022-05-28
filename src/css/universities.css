@@ -13,6 +13,7 @@
     font-weight: 400
 }
 
+
 .universities__container {
     padding: 100px 15px;
     display: grid;
@@ -21,14 +22,19 @@
 }
 
 .universities__card {
-    padding: 15px 30px;
     background: #eee;
-    border-radius: 15px;
+    border-radius: 8px;
     cursor: pointer;
+}
+
+.universities__link {
+    padding: 15px 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
+    color: inherit;
 }
 
 .universities__card:hover {

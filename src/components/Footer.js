@@ -1,5 +1,5 @@
 import '../css/footer.css';
-import QRImage from '../img/qr.png';
+import QRImage from '../img/qr.webp';
 
 
 function Footer() {
@@ -21,6 +21,9 @@ function Footer() {
                             </li>
                             <li className="contacts__item"> EMAIL
                                  <a href="mailto:info.sch51petr@obr.gov.spb.ru" className="contacts__link"> info.sch51petr@obr.gov.spb.ru </a>
+                            </li>
+                            <li className="contacts__item"> Telegram Bot
+                                 <a href="https://t.me/schedule_51_bot" className="contacts__link"> @schedule_51_bot </a>
                             </li>
                             <li className="contacts__item"> VKONTAKTE
                                 <a href="https://vk.com/public199260089" className="contacts__link"> https://vk.com/public199260089 </a>

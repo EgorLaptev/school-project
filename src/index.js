@@ -1,36 +1,14 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
+import React from 'react';
 import './index.css';
 import './css/main.css';
-import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Home from "./pages/Home";
-import Ege from "./pages/Ege";
-import Universities from "./pages/Universities";
-import Schedule from "./pages/Schedule";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import ScrollIntoView from "./components/ScrollIntoView";
-import './registerServiceWorker';
+import './registerServiceWorker.js';
+import App from "./App.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-
-        <ScrollIntoView/>
-
-        <BrowserRouter>
-            <Header/>
-            <Routes>
-                <Route path='/' element={ <Home/> }/>
-                <Route path='/home' element={ <Home/> }/>
-                <Route path='/schedule' element={ <Schedule/> }/>
-                <Route path='/ege' element={ <Ege/> }/>
-                <Route path='/universities' element={ <Universities/> }/>
-            </Routes>
-            <Footer/>
-        </BrowserRouter>
-
-
+        <App/>
     </React.StrictMode>
 );
 

@@ -1,8 +1,9 @@
-function Schedule10() {
+function Schedule10({ day, minutes }) {
+
     return (
         <>
             <div className="schedule__wrapper">
-                <h3 className='schedule__title'> Понедельник </h3>
+                <h3 className={ day === 1 ? 'schedule__title schedule__title_today' : 'schedule__title'}> Понедельник </h3>
 
                 <table className='table'>
 
@@ -30,7 +31,7 @@ function Schedule10() {
                         <td>Химия</td>
                         <td>11</td>
                     </tr>
-                    <tr>
+                    <tr className='schedule__now'>
                         <td>4</td>
                         <td>Индивидуальный проект</td>
                         <td>21</td>
@@ -56,7 +57,7 @@ function Schedule10() {
             </div>
 
             <div className="schedule__wrapper">
-                <h3 className='schedule__title'> Вторник </h3>
+                <h3 className={ day === 2 ? 'schedule__title schedule__title_today' : 'schedule__title'}> Вторник </h3>
 
                 <table className='table'>
 
@@ -115,7 +116,7 @@ function Schedule10() {
             </div>
 
             <div className="schedule__wrapper">
-                <h3 className='schedule__title'> Среда </h3>
+                <h3 className={ day === 3 ? 'schedule__title schedule__title_today' : 'schedule__title'}> Среда </h3>
 
                 <table className='table'>
 
@@ -169,7 +170,7 @@ function Schedule10() {
             </div>
 
             <div className="schedule__wrapper">
-                <h3 className='schedule__title'> Четверг </h3>
+                <h3 className={ day === 4 ? 'schedule__title schedule__title_today' : 'schedule__title'}> Четверг </h3>
 
                 <table className='table'>
 
@@ -228,7 +229,7 @@ function Schedule10() {
             </div>
 
             <div className="schedule__wrapper">
-                <h3 className='schedule__title'> Пятница </h3>
+                <h3 className={ day === 5 ? 'schedule__title schedule__title_today' : 'schedule__title'}> Пятница </h3>
 
                 <table className='table'>
 
@@ -287,7 +288,7 @@ function Schedule10() {
             </div>
 
             <div className="schedule__wrapper">
-                <h3 className='schedule__title'> Суббота </h3>
+                <h3 className={ day === 6 ? 'schedule__title schedule__title_today' : 'schedule__title'}> Суббота </h3>
 
                 <table className='table'>
 

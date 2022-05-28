@@ -1,10 +1,11 @@
 .intro {
     min-height: 500px;
-    height: 80vh;
+    height: 70vh;
     background: url(../img/bg.webp) 100% 100% no-repeat fixed;
     background-size: cover;
     color: #fff;
     text-align: center;
+    /*border-radius: 0 0 25px 25px;*/
 }
 
 .intro__container {
@@ -22,9 +23,9 @@
 }
 
 .intro__title {
+    font-family: Inter;
     text-transform: uppercase;
     font-size: 48rem;
-    font-family: Inter;
     font-weight: 400
 }
 
@@ -58,6 +59,7 @@
     overflow: hidden;
     transition: .3s transform;
     width: 100%;
+    border-radius: 8px;
 }
 
 .navigation .card:hover .card__img {
@@ -102,5 +104,10 @@
 }
 
 @media screen and (max-width: 420px) {
-
+    .navigation__container {
+        padding: 75px 5px
+    }
+    .navigation .card {
+        height: 180px;
+    }
 }

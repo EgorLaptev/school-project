@@ -1,4 +1,5 @@
-function Schedule11() {
+function Schedule11 () {
+
     return (
         <>
             <div className="schedule__wrapper">
@@ -17,33 +18,43 @@ function Schedule11() {
                     <tbody>
                     <tr>
                         <td>1</td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Алгебра</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Алгебра</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>История</td>
+                        <td>42</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>История</td>
+                        <td>42</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Искусство (МХК)</td>
+                        <td>43</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
                         <td>Русский язык</td>
                         <td>41</td>
                     </tr>
                     <tr>
-                        <td>2</td>
+                        <td>8</td>
                         <td>Химия</td>
                         <td>11</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Индивидуальный проект</td>
-                        <td>21</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Обществознание</td>
-                        <td>43</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Алгебра</td>
-                        <td>22</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Алгебра</td>
-                        <td>22</td>
                     </tr>
                     </tbody>
 
@@ -66,32 +77,37 @@ function Schedule11() {
                     <tbody>
                     <tr>
                         <td>1</td>
+                        <td>Физическая культура</td>
+                        <td>с/з</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Экономика</td>
+                        <td>43</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Право</td>
+                        <td>43</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
                         <td>Русский язык</td>
                         <td>41</td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>Химия</td>
-                        <td>11</td>
+                        <td>5</td>
+                        <td>Английский язык</td>
+                        <td>35/44</td>
                     </tr>
                     <tr>
-                        <td>3</td>
-                        <td>Индивидуальный проект</td>
-                        <td>21</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
+                        <td>6</td>
                         <td>Обществознание</td>
                         <td>43</td>
                     </tr>
                     <tr>
-                        <td>5</td>
-                        <td>Алгебра</td>
-                        <td>22</td>
-                    </tr>
-                    <tr>
                         <td>6</td>
-                        <td>Алгебра</td>
+                        <td>Геометрия</td>
                         <td>22</td>
                     </tr>
                     </tbody>
@@ -115,18 +131,18 @@ function Schedule11() {
                     <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Русский язык</td>
-                        <td>41</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Химия</td>
-                        <td>11</td>
+                        <td>Английский язык</td>
+                        <td>35/44</td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Индивидуальный проект</td>
-                        <td>21</td>
+                        <td>История</td>
+                        <td>42</td>
                     </tr>
                     <tr>
                         <td>4</td>
@@ -135,13 +151,18 @@ function Schedule11() {
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td>Алгебра</td>
-                        <td>22</td>
+                        <td>Литература</td>
+                        <td>33</td>
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td>Алгебра</td>
-                        <td>22</td>
+                        <td>Английский язык</td>
+                        <td>35/44</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Английский язык эл. Информатика эл. История эл. Биология эл.</td>
+                        <td>-</td>
                     </tr>
                     </tbody>
 
@@ -164,31 +185,36 @@ function Schedule11() {
                     <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Русский язык</td>
-                        <td>41</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Химия</td>
+                        <td>Химия эл.</td>
                         <td>11</td>
                     </tr>
                     <tr>
-                        <td>3</td>
-                        <td>Индивидуальный проект</td>
-                        <td>21</td>
+                        <td>2</td>
+                        <td>Физическая культура</td>
+                        <td>с/з</td>
                     </tr>
                     <tr>
-                        <td>4</td>
+                        <td>3</td>
                         <td>Обществознание</td>
                         <td>43</td>
                     </tr>
                     <tr>
+                        <td>4</td>
+                        <td>Литература</td>
+                        <td>33</td>
+                    </tr>
+                    <tr>
                         <td>5</td>
+                        <td>Физика</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
                         <td>Алгебра</td>
                         <td>22</td>
                     </tr>
                     <tr>
-                        <td>6</td>
+                        <td>7</td>
                         <td>Алгебра</td>
                         <td>22</td>
                     </tr>
@@ -213,33 +239,38 @@ function Schedule11() {
                     <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Русский язык</td>
-                        <td>41</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Химия</td>
-                        <td>11</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Индивидуальный проект</td>
-                        <td>21</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Обществознание</td>
+                        <td>Обществознание эл.</td>
                         <td>43</td>
                     </tr>
                     <tr>
-                        <td>5</td>
-                        <td>Алгебра</td>
+                        <td>3</td>
+                        <td>Геометрия</td>
                         <td>22</td>
                     </tr>
                     <tr>
+                        <td>4</td>
+                        <td>Английский язык</td>
+                        <td>35/44</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Русский язык эл.</td>
+                        <td>41</td>
+                    </tr>
+                    <tr>
                         <td>6</td>
-                        <td>Алгебра</td>
-                        <td>22</td>
+                        <td>Литература</td>
+                        <td>33</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>ОБЖ</td>
+                        <td>32</td>
                     </tr>
                     </tbody>
 
@@ -262,33 +293,43 @@ function Schedule11() {
                     <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Русский язык</td>
-                        <td>41</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Химия</td>
-                        <td>11</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Индивидуальный проект</td>
-                        <td>21</td>
+                        <td>Физическая культура</td>
+                        <td>с/з</td>
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>Обществознание</td>
-                        <td>43</td>
+                        <td>География</td>
+                        <td>32</td>
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td>Алгебра</td>
-                        <td>22</td>
+                        <td>Биология</td>
+                        <td>11</td>
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td>Алгебра</td>
+                        <td>Физика</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Алгебра эл.</td>
                         <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Физика эл.</td>
+                        <td>21</td>
                     </tr>
                     </tbody>
 

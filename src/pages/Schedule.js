@@ -1,18 +1,23 @@
 import React, {useEffect, useState} from 'react'
 import '../css/schedule.css';
-import Schedule10 from "../components/Schedule10";
-import Schedule11 from "../components/Schedule11";
-import ScheduleCalls from "../components/ScheduleCalls";
-
+import {useLocation} from "react-router-dom";
+import lessons from '../storage/lessons.json';
+import ScheduleList from "../components/ScheduleList.js";
 
 
 function Schedule() {
+
+    const location = useLocation();
 
     const [classNum, setClassNum] = useState('10');
 
     useEffect(() => {
         document.title = 'Расписание';
-    })
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }, [location]);
 
     return (
         <>
@@ -36,10 +41,13 @@ function Schedule() {
                             onClick={() => setClassNum('calls')}> Звонков </h2>
                     </div>
 
-                    <div className='schedule__wrap'>
-                        { classNum === '10' ? <Schedule10/> : classNum === '11' ? <Schedule11/> : <ScheduleCalls/> }
+                    <div className="schedule__wrap">
+                        <ScheduleList lessons={ lessons[classNum] }/>
                     </div>
 
+                    {/*<div className='schedule__wrap'>*/}
+                    {/*    { classNum === '10' ? <Schedule10 day={day} minutes={minutes}/> : classNum === '11' ? <Schedule11/> : <ScheduleCalls/> }*/}
+                    {/*</div>*/}
 
                 </div>
 
